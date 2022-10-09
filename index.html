@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design and Development</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- mdb links icons -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+        <i class="fas fa-wine-bottle fa-4x"></i>
+        <a href="#" class="logo">
+
+            
+           goToLiquireStore</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-1.png" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-2.png" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="image/cart-img-3.png" alt="">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+
+
+            <h3>Order alcohol <span>for</span> delivery or pickup</h3>
+            <p>Get your favorite beer, wine & spirits from nearby liquor stores</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- images side by side   -->
+
+    <div class="row">
+        <div class="column">
+            <img src="image/b1.jpg" alt="Snow" style="width:100%">
+            <h6 class="names-data">Beer</h6>
+        </div>
+        <div class="column">
+            <img src="image/w1.jpg" alt="Forest" style="width:100%">
+            <h6 class="names-data">Wine</h6>
+        </div>
+        <div class="column">
+            <img src="image/w2.jpg" alt="Mountains" style="width:100%">
+            <h6 class="names-data">Whiskey</h6>
+        </div>
+
+        <div class="column">
+            <img src="image/t1.jpg" alt="Snow" style="width:100%">
+            <h6 class="names-data">Tequila</h6>
+        </div>
+        <div class="column">
+            <img src="image/v2.jpg" alt="Forest" style="width:100%">
+            <h6 class="names-data">Vodka</h6>
+        </div>
+
+
+        <div class="column">
+            <img src="image/r1.jpg" alt="Snow" style="width:100%">
+            <h6 class="names-data">Gin</h6>
+        </div>
+        <div class="column">
+            <img src="image/g1.jpg" alt="Forest" style="width:100%">
+            <h6 class="names-data">Gin</h6>
+        </div>
+        <div class="column">
+            <img src="image/c1.jpg" alt="Mountains" style="width:100%">
+            <h6 class="names-data">Cognac</h6>
+        </div>
+
+
+        <div class="column">
+            <img src="image/b2.jpg" alt="Snow" style="width:100%">
+            <h6 class="names-data">Brandy</h6>
+        </div>
+
+    </div>
+    <!-- end images side by side  -->
+
+
+    <!-- home section ends -->
+
+    <!-- features section starts  -->
+
+    <section class="features" id="features">
+
+        <h1 class="heading"> How it <span>How it works</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/our1.png" alt="">
+                <h3>Enter your address</h3>
+                <p>Once you tell your location, we'll show you what's available in your local stores.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/our2.png" alt="">
+                <h3>Shop items you like</h3>
+                <p>Select your favorite items, compare price and shop from multiple stores at once.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/our3.png" alt="">
+                <h3>Get your items delivered</h3>
+                <p>Store will deliver your order, or you can select to pickup from the store at your convenience.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- features section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/beer1.jpg" alt="">
+                    <h3>fresh Beer Pack</h3>
+                    <div class="price">
+                        $1499/
+                        <del>2000
+                        </del>
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/beer2.png" alt="">
+                    <h3>nigerian beerguinness</h3>
+                    <div class="price"> $8000/- <del>10000</del> </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- categories section starts  -->
+
+    <section class="categories" id="categories">
+
+        <h1 class="heading"> product <span>categories</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/o1.webp" alt="">
+                <h3>O' Be Suave Gin & Tonic</h3>
+                <p>upto 45% off</p>
+                <p>Rs. 200.00</p>
+                <a href="https://www.winewell.in/collections/coming-soon/products/o-be-suave-gin-tonic" target="_blank" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/o2.webp" alt="">
+                <h3>O' Be Zesty Mojito</h3>
+                <p>upto 50% off</p>
+                <p>Rs. 200.00</p>
+                <a href="https://www.winewell.in/collections/coming-soon/products/o-be-zesty-mojito" target="_blank" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/o3.webp" alt="">
+                <h3>O' Be Fab Cosmopolitan</h3>
+                <p>upto 65% off</p>
+                <p>Rs. 200.00</p>
+                <a href="https://www.winewell.in/collections/coming-soon/products/o-be-fab-cosmopolitan" target="" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/o4.webp" alt="">
+                <h3>
+                    O' Be Lively Long Island Iced Tea</h3>
+                <p>upto 75% off</p>
+                <p>Rs. 230.00
+                </p>
+                <a href="https://www.winewell.in/collections/coming-soon/products/o-be-lively-long-island-iced-tea" target="_blank" class="btn">shop now</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- categories section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/pic-1.png" alt="">
+                    <p>Jhoomly.com is the first Liquor Online Ordering Platform in India. We are located in Mumbai India.</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/l1.webp" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> By user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 01-09-2022 </a>
+                    </div>
+                    <h3>Tusker Premium Lager 12x 500ml</h3>
+                    <p>Tusker is a pale lager from Kenya made from the highest quality malt barley grown in the Rift Valley. Medium to gold in colour with a white head, giving crisp and clean aromas with a touch of citrus. On the palate it is clean and refreshing
+                        with a hint of razor-sharp citrus.</p>
+                    <a href="https://www.drinksupermarket.com/tusker-premium-kenyan-lager-beer-12-x-500-ml-4-2-abv" target="_blank" class="btn">read more</a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="image/l2.webp" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 02-09-2022 </a>
+                    </div>
+                    <h3>Fiji Artesian Mineral Water 24x 500ml</h3>
+                    <p>Fiji water is clean Pure and untouched by man from Aquifer to when you unscrew the cap. It is far from pollution, acid rain and industrial waste making it the cleanest natural bottle water available. Taste paradise and treat yourself
+                        to the best.</p>
+                    <a href="https://www.drinksupermarket.com/fiji-artesian-mineral-water-24x-500ml" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/l3.webp" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i> by user </a>
+                        <a href="#"> <i class="fas fa-calendar"></i> 05-10-2022 </a>
+                    </div>
+                    <h3>Brewmeister Snake Venom 330ml 67.5%</h3>
+                    <p>Snake Venom, a fortified Scottish beer has a sweet, nutty aroma, a fruity flavour and fiery, intense finish.</p>
+                    <a href="https://www.drinksupermarket.com/brewmeister-snake-venom-330ml-bottle" target="_blank" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> GoToLiquireStore <i class="fas fa-wine-bottle fa-1x"></i> </h3>
+                <p>Love ordering from jhoomly.com. It has all the best beer and wine collection .</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> web@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Kolkatha, india - 700017</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+
+
+        </div>
+
+        <div class="credit"> created by |<span>  GoToLiquireStore  </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
